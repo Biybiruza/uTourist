@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_secondScreen"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:fontFamily="@font/gilroy_semi_bold"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="Second"
+        android:textColor="@color/color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_secondScreen" />
+
+    <TextView
+        android:id="@+id/tv_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:fontFamily="@font/gilroy_semi_bold"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_second" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:textSize="16dp"
+        android:text="Next"
+        android:fontFamily="@font/gilroy_semi_bold"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_select_btn"
+        android:textAllCaps="false"
+        app:layout_constraintVertical_bias="0.89"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

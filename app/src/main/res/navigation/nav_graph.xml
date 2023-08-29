@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.biybiruza.myapplication.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.biybiruza.myapplication.ui.login.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.biybiruza.myapplication.ui.registor.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.biybiruza.myapplication.ui.languages.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.biybiruza.myapplication.ui.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.biybiruza.myapplication.ui.main_fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.biybiruza.myapplication.ui.forgot.ForgotPasswordFragment"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_forgotPasswordNextFragment"
+            app:destination="@id/forgotPasswordNextFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordNextFragment"
+        android:name="com.biybiruza.myapplication.ui.forgot.ForgotPasswordNextFragment"
+        android:label="fragment_verification_next"
+        tools:layout="@layout/fragment_forgot_password_next" >
+        <action
+            android:id="@+id/action_forgotPasswordNextFragment_to_verificationFragment"
+            app:destination="@id/verificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.biybiruza.myapplication.ui.forgot.VerificationFragment"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_verification" >
+        <action
+            android:id="@+id/action_verificationFragment_to_verificationNextFragment3"
+            app:destination="@id/verificationNextFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationNextFragment"
+        android:name="com.biybiruza.myapplication.ui.forgot.VerificationNextFragment"
+        android:label="fragment_verification_next"
+        tools:layout="@layout/fragment_verification_next" >
+        <action
+            android:id="@+id/action_verificationNextFragment_to_verificationEndFragment"
+            app:destination="@id/verificationEndFragment"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationEndFragment"
+        android:name="com.biybiruza.myapplication.ui.forgot.VerificationEndFragment"
+        android:label="fragment_verification_end"
+        tools:layout="@layout/fragment_verification_end" >
+        <action
+            android:id="@+id/action_verificationEndFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/verificationEndFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
