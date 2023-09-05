@@ -23,7 +23,7 @@
         android:gravity="center"
         android:textColor="@color/color_primary"
         android:textSize="24dp"
-        android:text="Third"
+        android:text="@string/third"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_thirdScreen" />
@@ -37,7 +37,7 @@
         android:gravity="center"
         android:layout_marginTop="8dp"
         android:textSize="18dp"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        android:text="@string/thirdScreenText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_third" />
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
         android:textSize="16dp"
-        android:text="Finish"
+        android:text="@string/finish"
         android:fontFamily="@font/gilroy_semi_bold"
         android:textColor="@color/white"
         android:background="@drawable/shape_select_btn"
