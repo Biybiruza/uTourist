@@ -1,22 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UTourist</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="large_text">
-        "Material is the metaphor.\n\n"
+        "Material - bu metafora.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+        "Moddiy metafora ratsionallashtirilgan makon va harakat tizimining birlashtiruvchi nazariyasidir."
+        "Material qog'oz va siyohni o'rganishdan ilhomlanib, teginish haqiqatiga asoslangan "
+        "texnologik jihatdan rivojlangan va tasavvur va sehrga ochiq.\n"
+        "Materialning sirtlari va qirralari haqiqatga asoslangan vizual signallarni beradi."
+        "Tanish sensorli atributlardan foydalanish foydalanuvchilarga imkoniyatlarni tezda tushunishga yordam beradi. "
+        "Shunga qaramay, materialning moslashuvchanligi fizika qoidalarini buzmasdan,
+        jismoniy dunyoni almashtiradigan yangi imkoniyatlarni yaratadi. \n"
+        "Yorug'lik, sirt va harakatning asoslari ob'ektlarning kosmosda va bir-biriga nisbatan
+        qanday harakatlanishi, o'zaro ta'siri va mavjudligini etkazish uchun kalit hisoblanadi.
+        Haqiqiy yoritish tikuvlarni ko'rsatadi, bo'sh joyni ajratadi va harakatlanuvchi qismlarni
+        ko'rsatadi.\n\n"
 
-        "Bold, graphic, intentional.\n\n"
+        "Qattiq, grafik, qasddan.\n\n"
 
         "The foundational elements of print based design typography, grids, space, scale, color, "
         "and use of imagery guide visual treatments. These elements do far more than please the "
@@ -92,47 +94,48 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
-    <string name="your_password">Your password</string>
-    <string name="password">Password</string>
-    <string name="your_email">Your email</string>
+    <string name="your_password">Sizning parolingiz</string>
+    <string name="password">Parol</string>
+    <string name="your_email">Sizning elektron manzilingiz</string>
     <string name="e_mail">Email</string>
-    <string name="tv_continue">Continue</string>
-    <string name="tv_description"><![CDATA[By signing up you agree to our Terms & Condition and Privacy Policy.*]]></string>
-    <string name="your_last_name">Your Last Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="your_first_name">Your First Name</string>
+    <string name="tv_continue">Davom eting</string>
+    <string name="tv_description"><![CDATA[Ro‘yxatdan o‘tish orqali siz Shartlar va Maxfiylik siyosatimizga rozilik bildirasiz.*]]></string>
+    <string name="your_last_name">Familiyangiz</string>
+    <string name="last_name">Familiya</string>
+    <string name="your_first_name">Sizning ismingiz</string>
     <string name="first_name">First Name</string>
-    <string name="fistScreenText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
-    <string name="secondScreenText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
-    <string name="thirdScreenText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
-    <string name="first">First</string>
-    <string name="next">Next</string>
-    <string name="forgot_password_title">Forgot \nPassword ?</string>
-    <string name="forgot_password_description">Don’t worry! it happens. Please select the email or number associated with your account.</string>
-    <string name="via_email">via Email:</string>
-    <string name="via_sms">via SMS:</string>
-    <string name="submit">Submit</string>
-    <string name="email_id_mobile_number">Email ID/Mobile number</string>
-    <string name="choose_the_language">Choose the language, please!!</string>
-    <string name="login">Login</string>
-    <string name="remember_me">Remember Me</string>
-    <string name="forgot_password">Forgot Password?</string>
-    <string name="or_continue_with">or continue with</string>
-    <string name="title">Don\'t have an account?</string>
+    <string name="fistScreenText">Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir.</string>
+    <string name="secondScreenText">Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir.</string>
+    <string name="thirdScreenText">Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir.</string>
+    <string name="first">Birinchi</string>
+    <string name="next">Keyingi</string>
+    <string name="forgot_password_title">Parolni \nUnutdingizmi?</string>
+    <string name="forgot_password_description">Xavotir olmang! bo\'lib turadi. Hisobingiz bilan bog\'langan elektron pochta manzilini yoki raqamni tanlang.</string>
+    <string name="via_email">Elektron pochta orqali:</string>
+    <string name="via_sms">SMS orqali:</string>
+    <string name="submit">Yuborish</string>
+    <string name="email_id_mobile_number">Elektron pochta ID/Mobil raqam</string>
+    <string name="choose_the_language">Tilni tanlang, iltimos!!</string>
+    <string name="login">Tizimga kirish</string>
+    <string name="remember_me">Meni eslaysizmi</string>
+    <string name="forgot_password">Parolni unutdingizmi?</string>
+    <string name="or_continue_with">yoki davom eting</string>
+    <string name="title">accountingiz yo\'qmi?</string>
     <string name="signup">Signup</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="already_signed_up">Already signed up?</string>
-    <string name="otp_verification">OTP Verification</string>
-    <string name="otp_description">Enter the OTP sent to +67-1234-5678-9</string>
-    <string name="verify">Verify</string>
-    <string name="congratulations">Congratulations!</string>
-    <string name="your_account_is_ready_to_use">Your account is ready to use</string>
-    <string name="go_to_homepage">Go to Homepage</string>
-    <string name="reset_password_title">Reset \nPassword</string>
-    <string name="new_password">New Password</string>
+    <string name="sign_up">Ro\'yxatdan o\'tish</string>
+    <string name="already_signed_up">Allaqachon roʻyxatdan oʻtganmisiz?</string>
+    <string name="otp_verification">OTP tekshiruvi</string>
+    <string name="otp_description">+67-1234-5678-9 raqamiga yuborilgan OTPni kiriting</string>
+    <string name="verify">Tasdiqlash</string>
+    <string name="congratulations">Tabriklaymiz!</string>
+    <string name="your_account_is_ready_to_use">Hisobingiz foydalanishga tayyor</string>
+    <string name="go_to_homepage">Bosh sahifaga o\'ting</string>
+    <string name="reset_password_title">Parolni \nTiklash</string>
+    <string name="new_password">Yangi parol</string>
     <string name="start_symbol">*</string>
-    <string name="confirm_new_password">Confirm new password</string>
-    <string name="second">Second</string>
-    <string name="third">Third</string>
-    <string name="finish">Finish</string>
+    <string name="confirm_new_password">Yangi parolni tasdiqlang</string>
+    <string name="second">Ikkinchi</string>
+    <string name="third">Uchinchi</string>
+    <string name="finish">Tugatish</string>
+
 </resources>
