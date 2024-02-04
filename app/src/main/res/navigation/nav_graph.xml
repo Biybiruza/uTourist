@@ -70,7 +70,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.biybiruza.myapplication.ui.main_fragment.MainFragment"
+        android:name="com.biybiruza.myapplication.ui.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment

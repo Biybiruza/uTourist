@@ -4,6 +4,7 @@
     <color name="color_primary2">#EFCDA8</color>
     <color name="color_primary3">#F3E2D2</color>
     <color name="color_primary4">#43EC9363</color>
+    <color name="color_green">#1fc9c2</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

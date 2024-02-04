@@ -138,4 +138,14 @@
     <string name="third">Uchinchi</string>
     <string name="finish">Tugatish</string>
 
+
+    <string-array name="location_array">
+        <item>Nukus shaxri</item>
+        <item>Nukus tuman</item>
+        <item>Khodzhelyli tuman</item>
+        <item>Moynak tuman</item>
+        <item>To\'rt ko\'l tuman</item>
+        <item>Shimbay tuman</item>
+    </string-array>
+
 </resources>

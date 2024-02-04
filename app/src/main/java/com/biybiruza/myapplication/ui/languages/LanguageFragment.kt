@@ -19,6 +19,7 @@ class LanguageFragment : Fragment(R.layout.fragment_language){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        loadLocate()
         binding = FragmentLanguageBinding.bind(view)
 
         binding.apply {

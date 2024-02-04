@@ -135,4 +135,14 @@
     <string name="second">Second</string>
     <string name="third">Third</string>
     <string name="finish">Finish</string>
+
+    <string-array name="location_array">
+        <item>Nukus city</item>
+        <item>Nukus region</item>
+        <item>Khodzhelyli region</item>
+        <item>Moynak region</item>
+        <item>To\'rt ko\'l region</item>
+        <item>Shimbay city</item>
+    </string-array>
+
 </resources>
